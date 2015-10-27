@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#tableHead{
+	margin-left:100px;
+		padding:5px 5px;
+		border:5px solid red;
+		color:#600;
+	}
+	
+#detail{
+		color:#030;
+		font-weight:800;	
+}
+
+
+#userPhoto{
+		margin-top:50px;
+		margin-right:200px;
+		float:right;
+		padding:5px 5px;
+		border:3px dotted #003;	
+}
+
+#userInfo{
+		margin:20px 0 20px 0;
+}
+
+
+#update>a{
+		color:#600;
+		padding:5px;
+		border:3px dotted #030;	
+}
+
+
+
+#delete>a{
+	color:#600;
+	padding:5px;
+	border:3px dotted #030;
+}
+
+#foot{
+		
+  display:none;
+}
+
+#inse{
+	margin-top:30px;
+	font-weight:bold;
+	text-decoration:none;
+	color:#030;
+	font-size:14px;
+	padding:5px 5px;
+	border:1px solid red;
+}
+
+#il,#ir{
+	text-align:center;
+	
+	font-weight:bold;
+	font-size:18px;
+}
+
+#il>a,#ir>a{
+	text-decoration:none;
+	color:#300;	
+}
+
+#il>a:focus{color:#030;}
+#il>a:hover{color:#030;}
+
+#ir>a:focus{color:#030;}
+#ir>a:hover{color:#030;}
+
+#inse:active{}
+#inse:link{}
+#inse:visited{}
+#inse:focus{background-color:#CCC;}
+#inse:hover{background-color:#CCC;}
+
+
+

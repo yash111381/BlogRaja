@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-image:url(../images/bbb.jpg);}
+
+#heading{text-align:center;
+		font-style:normal;
+		margin-top:10px;
+		margin-left:100px;
+		font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		background-color:inherit;
+		display:block;
+		color:#C00;
+		font-size:25px;
+		font-weight:!important;
+		width:400px;
+		padding:20px 10px;
+		}
+		
+#logo{float:right;
+border:3px red dotted;
+		margin-top:0;
+		margin-right:100px;}
+
+#login	{border-color:#360;
+		border-style:dashed;
+		margin-top:10px;
+		background-image:url(../images/text4.jpg);
+		}
+		
+#tabs{padding:0;
+		text-align:right;
+		margin:10px 150px 10px 10px;
+	}
+	
+#wel{text-align:left;
+	margin:10px 10px 10px 100px;
+	font-weight:bolf;
+	color:#C00;
+	
+}
+		
+#heads	{border:none;
+		color:#006;
+		background:#FF9;
+		text-align:center;
+}
+
+#lis	{
+		list-style-type:none;
+		display:inline;
+	
+		}
+		
+#lis>a{display:inline-block;
+	width:120px;
+	margin-left:120px;
+	font-weight:bold;
+	text-decoration:none;
+	text-align:center;
+	font-size:26px;
+	padding:10px 20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:normal;
+	
+	color:#00F;
+	border-bottom:3px yellow solid;}
+	
+	
+	
+#lis>a:visited{}
+#lis>a:link{}
+#lis>a:active{}
+#lis>a:hover{background-color:#666666;color:#0FF;}
+#lis>a:focus{background-color:#666666;color:#0FF;}
+	
+
+#tableHead{
+			font-family:"Comic Sans MS", cursive;
+			font-weight:bold;
+			font-size:18px;}
+
+#imgleft{margin-top:50px;
+		margin-left:100px;
+		float:left;}
+
+#imgright{float:right;
+			margin-right:100px;
+			margin-top:50px;
+			
+		}
+		
+#footer{float:right;
+		margin-right:50px;
+		margin-top:50px;
+		color:#F00;
+		background-color:#0FF;
+		border:3px dotted #009;}
+		
+#footer1{float:left;
+		margin-left:50px;
+		color:#F00;
+		margin-top:50px;
+		border:3px dotted #009;
+		background-color:#0FF;}
+		
+#foot{
+		margin-top:25px;
+		
+		border:3px dashed #660000;
+		color:#030;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-style:normal;
+		font-weight:bold;
+		text-align:center;
+		background-image:url(../images/text5.jpg);
+		padding:5px 0;}

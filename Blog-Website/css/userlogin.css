@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+#createBlog{
+		text-align:right;
+		margin-top:50px;
+		font-weight:900;
+		
+		display:block;
+	}
+	
+	#viewBlog{
+		float:left;
+		margin-left:50px;
+		margin-top:35px;
+		font-weight:900;
+		
+		display:block;
+	}
+
+#createBlog>a{
+	text-decoration:none;
+	padding:15px 10px;
+	margin-top:10px;
+	margin-right:50px;
+	
+	color:#030;
+	border:5px solid #333;
+}
+
+#createBlog>a:visited{}
+#createBlog>a:link{}
+#createBlog>a:active{}
+#createBlog>a:hover{background-image:url(../images/back.jpg);color:#900;}
+#createBlog>a:focus{background-image:url(../images/back.jpg);color:#900;}
+
+
+
+#viewBlog>a{
+	text-decoration:none;
+	padding:15px 10px;
+	margin-top:10px;
+	margin-right:50px;
+	color:#030;
+	border:5px solid #333;
+}
+
+#viewBlog>a:visited{}
+#viewBlog>a:link{}
+#viewBlog>a:active{}
+#viewBlog>a:hover{background-image:url(../images/back.jpg);color:#900;}
+#viewBlog>a:focus{background-image:url(../images/back.jpg);color:#900;}
+
+#tableHead{
+	margin-left:100px;
+		padding:5px 5px;
+		border:5px solid red;
+		color:#600;
+	}
+	
+#detail{
+		color:#030;
+		font-weight:800;	
+}
+
+#user{
+		
+}
+
+#userPhoto{
+		margin-top:50px;
+		margin-right:200px;
+		float:right;
+		padding:5px 5px;
+		border:3px dotted #003;	
+}
+
+
